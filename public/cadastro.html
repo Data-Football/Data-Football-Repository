@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football Tactics - Cadastro</title>
+    <link rel="stylesheet" href="./css/style-cadastro.css">
 </head>
+
 <body>
-        <div><img src="./assets/img/football_tactics_remove.png" alt=""></div>
-        <div>
-            <div></div>
-            <div></div>
+
+    <div class="card-pai">
+        <div class="card-img">
+            <div class="row"><img src="./assets/img/DATA_FOOTBALL_branco-removebg-preview.png" alt=""></div>
         </div>
+        <div class="card-principal">
+            <div class="card-form">
+                <form id="form_cadastro">
+                <h1>Faça parte da equipe!</h1>
+                <h2>Preencha as informaçãos abaixo para se cadastrar</h2>
+                <label>Informe o seu nome</label><br>
+                <input type="text" id="nome" placeholder="Ex: Seu nome"><br>
+                <label>Informe o seu email</label><br>
+                <input type="text" id="email" placeholder="Ex: endereco@contato.com"><br>
+                <label>Informe o seu telefone</label><br>
+                <input type="text" id="telefone" placeholder="Ex: (xx) xxxxx-xxxx"><br>
+                <label>Informe o seu nome de usuário</label><br>
+                <input type="text" id="user_name" placeholder="Ex: Usuario123"><br>
+                <label>Informe o time que você torçe</label><br>
+                <input type="text" id="time" placeholder="Ex: Time FC"><br>
+                <label>De 0 a 10, qual o seu conhecimento de futebol?</label><br>
+                <input type="text" id="conhecimento_futebol" placeholder="Ex: 5"><br>
+                <label>Informe uma senha</label><br>
+                <input type="password" id="senha" placeholder="********"><br>
+                <label>Informe a senha novamente</label><br>
+                <input type="password" id="conf_senha" placeholder="********"><br><br>
+                
+            </form>
+            <div class="card-botoes">
+                    <button onclick="cadastrar()" id="cadastrar" class="botao-form">Cadastrar</button><br>
+            </div><br>
+            </div>
+        </div>
+            <div class="teste"></div>
+        </div>
+    </div>
 </body>
+<script>
+    function cadastrar() {
+        window.location.href = './login.html'
+    }
+</script>
+
 </html>

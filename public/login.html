@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Football Tactics - Login</title>
+    <title>Football Tactics - Cadastro</title>
+    <link rel="stylesheet" href="./css/style-login.css">
 </head>
+
 <body>
-        <div><img src="./assets/img/football_tactics_remove.png" alt=""></div>
-        <div>
-            <div></div>
-            <div></div>
+
+    <div class="card-pai">
+        <div class="card-img">
+            <div class="row"><img src="./assets/img/DATA_FOOTBALL_branco-removebg-preview.png" alt=""></div>
         </div>
+        <div class="card-principal">
+            <div class="card-form">
+                <form id="form_cadastro">
+                <h1>Bem-vindo, novamente!</h1>
+                <h2>Preencha as informaçãos abaixo para entrar</h2>
+                <label>Informe o seu nome de usuário</label><br>
+                <input type="text" id="user_name" placeholder="Ex: Usuario123"><br>
+                <label>Informe uma senha</label><br>
+                <input type="password" id="senha" placeholder="********"><br>        
+            </form>
+            <div class="card-botoes">
+                    <button onclick="login()" id="login" class="botao-form">Login</button><br>
+                    <label>Ainda não se cadastrou? Clique no botão abaixo</label><br>
+                    <button onclick="cadastro()" id="cadastro" class="botao-form">Realizar cadastro</button>
+            </div><br>
+            </div>
+        </div>
+            <div class="teste"></div>
+        </div>
+    </div>
 </body>
+<script>
+    function cadastrar() {
+            window.location.href = './cadastrar.html'
+        }
+    function login() {
+            window.location.href = './quiz.html'
+        }
+</script>
 </html>
