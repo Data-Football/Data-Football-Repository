@@ -38,11 +38,12 @@ a{
 }
 .button-login{
     background-color: #00ff85;
-    width: 5%;
+    height: 50px;
+    width: 100px;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
-    border: none;
+    border: 1px solid;
     margin-right: 20px;
 }
 .card-secao2{
@@ -57,7 +58,6 @@ a{
 .card-secao1-txt{
     width: 70%;
     margin-left: 5%;
-    margin-top: 2%;
 }
 .card-secao1-txt h1, .card-secao2-txt h1, .card-secao3-txt h1{
     text-align: justify;
@@ -65,8 +65,8 @@ a{
 }
 .card-secao1-txt p, .card-secao2-txt p{
     text-align: justify;
-    width: 80%;
-    font-size: 20px;
+    width: 90%;
+    font-size: 15px;
 }
 .card-secao1-img img, .card-secao2 img{
     width: 100%;

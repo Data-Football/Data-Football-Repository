@@ -38,11 +38,12 @@ a{
 }
 .button-login{
     background-color: #00ff85;
-    width: 5%;
+    height: 50px;
+    width: 100px;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
-    border: none;
+    border: 1px solid;
     margin-right: 20px;
 }
 .card-secao1, .card-secao2{
